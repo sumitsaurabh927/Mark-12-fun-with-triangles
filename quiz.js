@@ -14,11 +14,8 @@ function btnPressed() {
         if (data === correctAns[i]) {
             console.log("correct");
             score += 10
-        } else {
-            console.log("incorrect");
         }
         i += 1
     }
 out.innerText="Final Score: "+score;
-    console.log("your score is: " + score);
 }
