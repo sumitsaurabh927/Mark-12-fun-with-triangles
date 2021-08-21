@@ -3,7 +3,7 @@ var triangleForm = document.querySelector("#form")
 var formResults = new FormData(triangleForm)
 btn.addEventListener("click", btnPressed)
 const correctAns = ["100", "equilateral"]
-var out=document.querySelector("#output")
+var out = document.querySelector("#output")
 
 function btnPressed() {
     var i = 0;
@@ -17,5 +17,5 @@ function btnPressed() {
         }
         i += 1
     }
-out.innerText="Final Score: "+score;
+    out.innerText = "Final Score: " + score;
 }
