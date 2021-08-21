@@ -3,6 +3,7 @@ var triangleForm = document.querySelector("#form")
 var formResults = new FormData(triangleForm)
 btn.addEventListener("click", btnPressed)
 const correctAns = ["100", "equilateral"]
+var out=document.querySelector("#output")
 
 function btnPressed() {
     var i = 0;
@@ -10,8 +11,7 @@ function btnPressed() {
 
     for (let data of formResults.values()) {
         console.log(data);
-        var userAns = data ;
-        if (userAns === correctAns[i]) {
+        if (data === correctAns[i]) {
             console.log("correct");
             score += 10
         } else {
@@ -19,5 +19,6 @@ function btnPressed() {
         }
         i += 1
     }
+out.innerText="Final Score: "+score;
     console.log("your score is: " + score);
 }
