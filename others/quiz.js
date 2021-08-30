@@ -24,7 +24,7 @@ function btnPressed() {
         // console.log("clicked");
 
         console.log(data);
-        if (data == correctAns[i]) {
+        if (data === correctAns[i]) {
             // console.log("correct");
             score += 10
             // console.log(score);
