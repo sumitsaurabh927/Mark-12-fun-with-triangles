@@ -3,3 +3,4 @@ This app contains trivia related to triangles. You can play [here](https://funwi
 The following technologies have had a vital role in helping me build it:
 - HTML
 - CSS
+- Javascript
