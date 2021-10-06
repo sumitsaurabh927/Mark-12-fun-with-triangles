@@ -5,7 +5,6 @@ const out = document.querySelector("#output")
 
 btn.addEventListener("click", isTriangle)
 
-console.log("github works")
 function isTriangle() {
     var angle1 = Number(input[0].value)
     var angle2 = Number(input[1].value)
