@@ -1,14 +1,11 @@
-// console.log("working fine")
 const input = document.querySelectorAll(".input")
-// console.log(inputOne)
-// const inputOne=input[0].value;
-// console.log(inputOne)
+
 const btn = document.querySelector("#button")
 const out = document.querySelector("#output")
 
 btn.addEventListener("click", isTriangle)
 
-
+console.log("github works")
 function isTriangle() {
     var angle1 = Number(input[0].value)
     var angle2 = Number(input[1].value)
